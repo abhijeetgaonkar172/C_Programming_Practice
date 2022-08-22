@@ -1,0 +1,153 @@
+
+1 - Write a C program which produces its own source code as its output.
+Explanation: print it's source code as an output.
+
+2 - Write a C program to find largest among three numbers.
+Explanation: Compare and print largest Number.
+
+3 - Check if the given string is shuffled substring of another sting.
+Explanation: Given string str1 and str2. The task is to find that if str1 is substring in shuffled form of str2 or not.
+print shuffled string if found in str1. else print "SHUFFLED STRING NOT FOUND".
+
+ex1: 
+
+Input: str1 = "Acevin solutions 123" .
+       str2 = "Address is solution 123 Acevin world."
+
+Output: "solution 123 Acevin".
+
+
+ex2:
+
+Input: str1 = "Yellow Rose"
+	   str2 = "Rose"
+
+Output: "SHUFFLED STRING NOT FOUND"
+
+* As length of Str1 is greater than str2. str1 is not a Substring of str2.
+
+3 - Check if the given string is suffled substring of another string.( without Space/NOT fixed formate)
+Explanation: Same as above.
+
+ex1:
+   Input: str1 = "onetwofour"
+          str2 = "hellofourtwooneworld"
+
+   Output: fourtwoone
+   
+*Hint: Sort both the strings and compare the sorted string.           
+
+
+4 - Write a C program to swapping of two integer arrays.
+
+5 - Write a C program to swapping of two string.
+
+6- Write a C program to store Name and 10 digits mobile number of 20 users (Use 3 dimentional character array)
+
+7- Write a C program to search and print Namea and mobile Number from above database.
+
+8- Write a C progrm to sort the users in ascending order according to their Names.
+
+9- Add a user at it's position (according to ascending order), in above database.
+
+10- Search and Delete an user's entry from above database (search with Name/Mobile_No).
+
+11 - store above database in a file.
+
+12 - Read database from a file.
+
+13- Write a C program to Convert decimal number to binary number. (Don't use predefined function)
+
+14- Write a C program to convert decimal number to hexadecimal number.(Don't use predefined function)
+
+15- Write a C program to convert number in word.(100 as "One Hundred", 10 as "Ten",120 as"One Hundred Twenty")
+
+16- Write a C program to convert the string from upper case to lower case.
+
+17- Write a C program to convert the stirng from lower case to upper case.
+
+18- Write a C program to delete the all consonants from given string.
+
+19- Wrtie a C program to sort the characters of a string.
+
+20- Wrire a C program to concatenation two strings without using string.h header file.
+
+21- Write a C program to find the length of a string using pointer.
+
+22- Write a C program to reverse a string.
+
+23- Write a C program to compare two  strings without using predefined function.
+
+24- Write a C program to Copy a string without using predefined function.
+
+25 - Write a C program to open a file and write some test and close it.
+
+26 - Write a C program to delete a file.
+
+27 - Write a C program to copy file from location to other location.
+
+28 - Write a C program copy a data of file to other file.
+
+29 - Wrtie a C program which display source code as a output.
+
+30 - Write a C program which write string in the file
+
+31 - Write a C program which writes array in the file.
+
+32 - Write a C program to find out size of any file.
+
+33 - Write a C program to know file type of file.
+
+34 - Write a C program to know permission of any file.
+
+35 - Write a C program to know last date of midification of any file.
+
+36 - Write a C program to find out largest element of an array.
+
+37 - Write a C program which deletes the duplicate element of an array.
+
+38 - Write a C program for delete an element at desired position in an array.
+
+39 - Write a C program for insert and element at desired position in an arrayy.
+
+40 - Write a C program to find largest and smallest number in an array.
+
+41 - Write a C program for concatenation two string using pointer.
+
+42 - Write a C program to swap two nibbles in a byte?
+
+43 - Write a program to add a node in a single link list,to print the list, to delete a node form a list, also search a node 
+     with Lamp_NO.
+     use Dynamic memory allocations to creat a node. Write different functions for add,print and delete and search, pass the structure as an argument to this functions for call by reference. 
+
+Explanation: creat a node with elements as given bellow.
+              struct
+              {
+                 uint8_t Lamp_NO;
+                 uint8_t Mobile_No[12];
+                 uint8_t Location[20];
+              }stLamp_Detail_t;     
+
+ 44 - Write a program to convert Epoch counter in a date and time formate.
+
+ 45 - Write a program to convert date and time in Epoch counter.
+
+ 46 - write a user define ascii to integer converter.( Don't use predefine functions)
+
+ 47 - Write a user define ascii to Hex data converter.(Don't use predefine functions)
+
+ 48 - Write a user define ascii to float data converter.(Don't use predefine functions)
+
+ 49 - Write a user define integer to ascii data converter.(Don't use predefine functions)
+
+ 50 - Write a user define Hex to ascii data converter. (Don't use predefine functions)
+
+ 51 - Write a user define float to ascii data converter. (Don't use predefine functions)
+
+ 52 - Write a program to calculate CRC of 32 bit data. (Don't use predefine functions)
+
+ 53 - Write a program to calculate Checksum of 32 bit data. (Don't use predefine functions)
+
+
+
+NOTE: Creat a function( with proper arguments and returns ) in every program. So that we can use these functions in our real time projects,directly.
